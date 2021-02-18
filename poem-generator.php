@@ -10,7 +10,6 @@
             $colour = filter_input(INPUT_POST, 'colour');
             $noun = filter_input(INPUT_POST, 'noun');
             $person = filter_input(INPUT_POST, 'person');
-            echo "<div class=poemDiv>";
             echo "<p> Roses are $colour.</p>";
             echo "<p> $noun are blue. </p>";
             echo "<p> Dear $person, Happy Valentine's Day to you! </p>"; 
